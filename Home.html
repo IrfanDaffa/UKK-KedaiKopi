@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Kopi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: rgb(255, 255, 255);
+            color: #333;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            overflow: hidden;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        nav ul {
+            float: right;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover{
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('img/background kopi.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .about {
+            padding: 50px 0;
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kedai Kopi Kopiku</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Beranda</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Lokasi.html">Lokasi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Selamat Datang di Kedai Kopi Kopiku</h2>
+            <p>Nikmati secangkir kopi yang segar di kedai kami.</p>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Kedai Kopi Kopiku adalah tempat yang menyediakan berbagai jenis kopi berkualitas dengan suasana yang nyaman untuk bersantai.</p>
+            <p>Kami menggunakan biji kopi berkualitas tinggi dari berbagai daerah di Indonesia.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kedai Kopi Kopiku</p>
+        </div>
+    </footer>
+</body>
+</html>

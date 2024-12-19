@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Kedai Kopi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: url('img/background kopi2.jpg') no-repeat center center/cover;
+            color: #333;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            overflow: hidden;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        nav ul {
+            float: right;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover{
+            text-decoration: underline;
+        }
+        
+        .menu {
+            padding: 50px 0;
+        }
+
+        .menu-item {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .menu-item h3 {
+            margin-top: 10px;
+        }
+
+        .menu-item p {
+            font-style: italic;
+            color: #777;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        input[type="submit"] {
+            background-color: rgb(150, 140, 117);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        input[type="submit"]:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kedai Kopi Kopiku</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Beranda</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Lokasi.html">Lokasi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="menu">
+        <div class="container">
+            <div class="menu-item">
+                <img src="img/kopi3.jpg" alt="Kopi Hitam">
+                <h3>Kopi Hitam</h3>
+                <p>Rasa kopi hitam yang klasik</p>
+                <input type="submit" value="Pesan">
+            </div>
+            <div class="menu-item">
+                <img src="img/kopi1.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Kopi kuat dengan rasa khas</p>
+                <input type="submit" value="Pesan">
+            </div>
+            <div class="menu-item">
+                <img src="img/kopi2.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Kopi dengan susu dan busa</p>
+                <input type="submit" value="Pesan">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kedai Kopi Kopiku</p>
+        </div>
+    </footer>
+</body>
+</html>
